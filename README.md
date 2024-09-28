@@ -1,2 +1,2 @@
-# XMLib.AM.Example
-XMLib 动作编辑器 Demo
+# 动作游戏Demo
+动作编辑器 Demo
