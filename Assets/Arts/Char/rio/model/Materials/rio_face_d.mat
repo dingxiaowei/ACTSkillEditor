@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rio_face_d
+  m_Shader: {fileID: 4800000, guid: 79f11b3751c135849aa083507e574748, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: af250ed54eeb97b4aa3003e689478965, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MASK:
+        m_Texture: {fileID: 2800000, guid: 0298c4e83844f7542805ce59b98433f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4d05eaf117dd97c4aaf085d2f650b075, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AS: 0.5
+    - _Alpha: 1
+    - _Body: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DColor_Switch: 0
+    - _DSwitch: 0
+    - _Dark_R: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dissovle: 2
+    - _Dissovle_Width: 6.796117
+    - _DstBlend: 0
+    - _EnableZDepth: 0
+    - _Fresnel_Switch: 0
+    - _Fresnel_width_A: 0.5242718
+    - _Fresnel_width_B: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LAngle: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.001
+    - _OutlineDisFar: 4
+    - _OutlineDisNear: 0
+    - _OutlineMax: 0.0015
+    - _OutlineMin: 0.0005
+    - _Parallax: 0.02
+    - _RimEnable: 0
+    - _SceneColor: 1
+    - _Se_Shadow2Threshlold: -0.9
+    - _Shadow: 1
+    - _ShadowContrast: 0.3
+    - _ShadowLight: 1.2
+    - _ShadowRange: 1
+    - _ShadowThreshlold: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularBrightness: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 1
+    - _SpecularRange: 0.5
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZDepth: 0
+    - _ZWrite: 1
+    - _alpha_slider: 0
+    - _node_1468: 1.5
+    - _node_7287: 0
+    m_Colors:
+    - _BodyOutline: {r: 0.45882356, g: 0.32941177, b: 0.30980393, a: 1}
+    - _Brightness: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraViewPos: {r: 0, g: 0, b: 0, a: 0}
+    - _CharPos: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - _Dissovle_Color: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fresnel_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0.45882356, g: 0.32941177, b: 0.30980393, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.9921569, g: 0.92549026, b: 0.92549026, a: 1}
+    - _ShadowColorBody: {r: 0.9921569, g: 0.92549026, b: 0.92549026, a: 1}
+    - _node_3867: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BuildTextureStacks: []
