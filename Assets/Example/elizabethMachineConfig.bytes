@@ -39,27 +39,6 @@
         },
         {
           "$type": "ConditionConfig, Assembly-CSharp",
-          "stateName": "jump",
-          "priority": 0,
-          "checker": [
-            {
-              "$type": "Conditions.KeyCodeChecker, Assembly-CSharp",
-              "events": 4,
-              "isNot": false,
-              "fullMatch": false
-            },
-            {
-              "$type": "Conditions.GroundChecker, Assembly-CSharp",
-              "isNot": false
-            }
-          ],
-          "enableBeginEnd": false,
-          "beginFrame": 0,
-          "endFrame": 0,
-          "enableLoop": true
-        },
-        {
-          "$type": "ConditionConfig, Assembly-CSharp",
           "stateName": "attack01",
           "priority": 0,
           "checker": [
@@ -91,7 +70,7 @@
       "frames": [
         {
           "stayAttackRange": false,
-          "stayBodyRange": true,
+          "stayBodyRange": false,
           "attackRanges": [],
           "bodyRanges": []
         }
@@ -99,7 +78,7 @@
       "actions": [
         {
           "$type": "MoveConfig, Assembly-CSharp",
-          "moveSpeed": 5.0
+          "moveSpeed": 3.0
         },
         {
           "$type": "ConditionConfig, Assembly-CSharp",
